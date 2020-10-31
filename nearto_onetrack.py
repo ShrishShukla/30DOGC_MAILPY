@@ -11,7 +11,7 @@ list_done = nearone[['Student Name' , 'Student Email']].values.tolist()
 
 def sendmail():
 	for p in list_done:
-
+		print("sending to {valer}".format(valer = p[0] ))
 		EMAIL_ADDRESS = ts.email
 		EMAIL_PASSWORD = ts.password
 		msg = EmailMessage()
