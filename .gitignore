@@ -1,0 +1,8 @@
+credentials.py
+*.csv
+.pyc
+*.html
+*.xlsx
+__pycache__/
+*.py[cod]
+*$py.class
